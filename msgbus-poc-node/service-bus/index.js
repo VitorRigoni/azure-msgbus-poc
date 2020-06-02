@@ -4,7 +4,7 @@ const {
 } = require("@azure/service-bus");
 
 // Define connection string and related Service Bus entity names here
-const connectionString = "Endpoint=sb://msgbuspoc.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=MdL/f+EC7tuVjcmRM0hcKA9fR63YW9Y5ZyKXlW8T7aA=";
+const connectionString = "--your-key-here"; // of course this should come from config
 const queueName = "poc";
 
 const listen = () => {

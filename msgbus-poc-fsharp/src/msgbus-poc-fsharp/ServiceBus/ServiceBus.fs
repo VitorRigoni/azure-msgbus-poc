@@ -5,7 +5,7 @@ open Microsoft.Azure.ServiceBus
 open System
 open Newtonsoft.Json
 
-let serviceBusConnectionString = "Endpoint=sb://msgbuspoc.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=MdL/f+EC7tuVjcmRM0hcKA9fR63YW9Y5ZyKXlW8T7aA="
+let serviceBusConnectionString = "--your-key-here"
 let queueName = "poc"
 
 type Policy = { Id: Guid; PolicyNumber: string;}
